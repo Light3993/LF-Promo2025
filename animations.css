@@ -1,0 +1,39 @@
+/* Animations */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 5px var(--accent-color); }
+    50% { text-shadow: 0 0 20px var(--accent-color), 0 0 30px var(--secondary-color); }
+    100% { text-shadow: 0 0 5px var(--accent-color); }
+}
+
+.animated-title {
+    animation: glow 3s infinite;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.floating-elements {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+
+.floating-icon {
+    font-size: 3rem;
+    color: var(--accent-color);
+    animation: float 6s infinite ease-in-out;
+}
+
+.floating-icon:nth-child(2) {
+    animation-delay: -2s;
+}
+
+.floating-icon:nth-child(3) {
+    animation-delay: -4s;
+}

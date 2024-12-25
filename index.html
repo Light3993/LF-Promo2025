@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard École</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="animations.css">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="logo-space">
+                <!-- Espace réservé pour le logo -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="actualites.html"><i class="fas fa-newspaper"></i> Actualités</a></li>
+                <li><a href="annonces.html"><i class="fas fa-bullhorn"></i> Annonces</a></li>
+                <li><a href="cours.html"><i class="fas fa-book"></i> Cours</a></li>
+                <li><a href="notes.html"><i class="fas fa-graduation-cap"></i> Notes</a></li>
+                <li><a href="suggestions.html"><i class="fas fa-comment-dots"></i> Suggestions & plaintes</a></li>
+                <li><a href="chat.html"><i class="fas fa-comments"></i> Chat Étudiants</a></li>
+            </ul>
+        </nav>
+
+        <!-- Contenu principal -->
+        <main class="main-content">
+            <header class="top-header">
+                <div class="logo-container">
+                    <div class="logo">
+                        <img src="https://th.bing.com/th/id/OIP.AQ-vlqgp9iyDGW8ag9oCsgHaHS?rs=1&pid=ImgDetMain" title="Titre du Logo" alt="Description du Logo">
+                    </div>
+                    
+                </div>
+                <div class="logo-container">
+                    <div class="logo">
+                        <img src="https://th.bing.com/th/id/OIP.h2dDuVfXuRybUZaghbVlCgHaJV?w=500&h=630&rs=1&pid=ImgDetMain" alt="Logo Right">
+                    </div>
+                </div>
+            </header>
+
+            <div class="welcome-section">
+                <h1 class="animated-title">Bienvenue sur votre Espace chers étudiant de la LF</h1>
+                <div class="floating-elements">
+                    <!-- Éléments flottants animés -->
+                    <div class="floating-icon"><i class="fas fa-microchip"></i></div>
+                    <div class="floating-icon"><i class="fas fa-robot"></i></div>
+                    <div class="floating-icon"><i class="fas fa-code"></i></div>
+                </div>
+            </div>
+
+            <div class="content-grid">
+                <!-- Espaces pour les articles -->
+                <div class="content-card">
+                    <h3>Articles Récents</h3>
+                    <!-- Espace réservé pour les articles -->
+                </div>
+                <div class="content-card">
+                    <h3>Actualités</h3>
+                    <!-- Espace réservé pour les actualités -->
+                </div>
+                <div class="content-card">
+                    <h3>Événements à venir</h3>
+                    <!-- Espace réservé pour les événements -->
+                </div>
+                <div class="video-container">
+                    <h3>Visionnez notre vidéo du jour</h3>
+                    <video controls>
+                        <source src="https://youtu.be/qvC0U7ri8og" type="video/mp4">
+                        Votre navigateur ne prend pas en charge la balise vidéo.
+                    </video>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="animations.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

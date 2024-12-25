@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestions - Dashboard École</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="suggestions.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <!-- Même contenu que précédemment -->
+        </nav>
+
+        <main class="main-content">
+            <h1 class="page-title">Suggestions & Plaintes</h1>
+            <div class="suggestion-form">
+                <form id="suggestionForm">
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Envoyer</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="suggestions.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
